@@ -73,14 +73,10 @@ body {
     font-weight: 400;
     color: hsl(178, 100%, 50%);
     margin: 3px;
-    
-}
-
-.ethereum-amount .part-1 {
     width: 50%;
 }
 
-.ethereum-amount .part-2 {
+.ethereum-amount .part-1 {
     width: 50%;
 }
 
