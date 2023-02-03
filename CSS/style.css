@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.nft-card {
+    width: 320px;
+    height: 570px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: auto;
+    display: grid;
+}
+
+.nft-image {
+    width: 100%;
+    heigh: 320px; 
+}
+
+.nft-image img {
+    width: 90%;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.nft-details {
+    margin: 0 auto;
+    width: 90%;
+    height: 30vh;
+}
+
+.nft-details h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit';
+    font-weight: 700;
+    text-align: left;
+    /* margin-top: 1rem; */
+}
+
+.nft-details p {
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.ethereum-amount {
+    width: 50%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+.ethereum-amount p {
+    display: inline;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    margin: 3px;
+    
+}
+
+.ethereum-amount .part-1 {
+    width: 50%;
+}
+
+.ethereum-amount .part-2 {
+    width: 50%;
+}
+
+.days-left {
+    width: 50%;
+    display: inline;
+    margin-left: 51px;
+}
+
+.days-left img {
+/*    position: relative;*/
+    display: inline;
+}
+
+.day-part-2 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    font-size: 15px;
+}
+hr{
+        border: 1px solid hsl(215, 51%, 70%);
+        margin-top: 10px;
+        
+    }
+    .m {
+        margin-top: 15px;
+    }
+.user-img {
+    width: 40%;
+    display: inline;
+    margin-top: 1px;
+}
+.d1 img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.user-details {
+    width: 70%;
+    position: relative;
+    left: 78px;
+    top: -42px;
+    font-size: 18px;
+    font-family: 'Outfit';
+}
