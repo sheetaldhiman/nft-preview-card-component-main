@@ -65,10 +65,10 @@ body {
 }
 
 
-.ethereum-amount p {
+.ethereum-amount .part-2 {
     display: inline;
     font-family: 'Outfit';
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: hsl(178, 100%, 50%);
     margin: 3px;
